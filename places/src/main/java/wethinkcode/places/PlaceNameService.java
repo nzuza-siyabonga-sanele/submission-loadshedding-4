@@ -4,7 +4,9 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Collection;
+import java.util.Map;
 import java.util.Properties;
+import java.util.logging.Level;
 
 import com.google.common.annotations.VisibleForTesting;
 
@@ -13,6 +15,8 @@ import io.javalin.http.Context;
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
+import wethinkcode.AlertQueue;
+import wethinkcode.loadshed.common.logger;
 import wethinkcode.places.model.Places;
 import wethinkcode.places.model.Town;
 
@@ -158,6 +162,9 @@ public class PlaceNameService implements Runnable {
         try {
             return new PlacesCsvParser().parseCsvSource( dataFile() );
         }catch( IOException ex ){
+            AlertQueue alert = new AlertQueue();
+            alert.broadcastStageChangeEvent("Error reading CSV file " + dataFile + ": " + ex.getMessage() );
+
             dataFile = new File(
                     "/home/wtc_laptop/submission-loadshedding-3/places/resources/PlaceNamesZA2008.csv"
             );

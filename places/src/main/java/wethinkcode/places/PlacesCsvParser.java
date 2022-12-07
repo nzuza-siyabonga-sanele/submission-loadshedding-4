@@ -32,6 +32,7 @@ public class PlacesCsvParser {
         //{snip/1}
         requireNonNull(csvFile);
         if (!(csvFile.exists() && csvFile.canRead())) {
+            PlaceNameService cvs = new PlaceNameService();
             throw new FileNotFoundException("Required CSV input file " + csvFile.getPath() + " not found.");
         }
 

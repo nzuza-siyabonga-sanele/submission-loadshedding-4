@@ -14,6 +14,12 @@ public class QueueReceiver implements Runnable {
 
     public static final String MQ_QUEUE_NAME = "stage";
 
+    public String getAlert() {
+        return alert;
+    }
+
+    private String alert;
+
     public static void main(String[] args) {
         final QueueReceiver app = new QueueReceiver();
         app.run();
@@ -86,8 +92,8 @@ public class QueueReceiver implements Runnable {
                                 } catch (Exception e) {}
                                 System.exit(0);
                             }
-
-                            System.out.println("Received message:" + body);
+                            alert = body;
+                            System.out.println("Received message alert :" + body);
 
                         }
                     }

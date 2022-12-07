@@ -19,17 +19,22 @@
     <remote-repository>
       <option name="id" value="common_lib" />
       <option name="name" value="Project library" />
-      <option name="url" value="file:////home/wtc_laptop/submission-loadshedding-4/stage/common" />
+      <option name="url" value="file:////home/wtc_laptop/submission-loadshedding-4/common/common" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="common_lib" />
       <option name="name" value="Project library" />
-      <option name="url" value="file:////home/wtc_laptop/submission-loadshedding-4/common/common" />
+      <option name="url" value="file:////home/wtc_laptop/submission-loadshedding-4/stage/common" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Maven Central repository" />
       <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="common_lib" />
+      <option name="name" value="Project library" />
+      <option name="url" value="file:////home/wtc_laptop/submission-loadshedding-4/places/common" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="jboss.community" />
@@ -39,12 +44,12 @@
     <remote-repository>
       <option name="id" value="common_lib" />
       <option name="name" value="Project library" />
-      <option name="url" value="file:////home/wtc_laptop/submission-loadshedding-4/places/common" />
+      <option name="url" value="file:////home/wtc_laptop/submission-loadshedding-4/schedule/common" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="common_lib" />
       <option name="name" value="Project library" />
-      <option name="url" value="file:////home/wtc_laptop/submission-loadshedding-4/schedule/common" />
+      <option name="url" value="file:////home/wtc_laptop/submission-loadshedding-4/alert/common" />
     </remote-repository>
   </component>
 </project>

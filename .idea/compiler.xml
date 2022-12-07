@@ -11,7 +11,12 @@
         <module name="stage" />
         <module name="common" />
         <module name="web" />
+        <module name="alert" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common (1)" target="17" />
+      <module name="common (2)" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

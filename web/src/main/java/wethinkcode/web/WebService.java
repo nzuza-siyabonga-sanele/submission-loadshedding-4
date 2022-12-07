@@ -9,6 +9,7 @@ import kong.unirest.Unirest;
 import nz.net.ultraq.thymeleaf.layoutdialect.LayoutDialect;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver;
+import wethinkcode.AlertQueue;
 import wethinkcode.loadshed.spikes.TopicReceiver;
 import wethinkcode.places.PlaceNameService;
 import wethinkcode.schedule.ScheduleService;
@@ -31,6 +32,9 @@ public class WebService {
     private static final String PAGES_DIR = "/templates";
     public static int TOPIC_STAGE ;
     private static TopicReceiver app;
+
+    public static AlertQueue alertService;
+
 
     public static void main(String[] args) {
         final WebService svc = new WebService().initialise();
@@ -78,6 +82,10 @@ public class WebService {
         scheduleService.start();
         StageService stageService = new StageService();
         stageService.start();
+
+        alertService = new AlertQueue();
+        alertService.configureReceiver();
+
         TOPIC_STAGE = Unirest.get( STAGE_SVC_URL +"/stage" ).asJson().getBody().getObject().getInt("stage");
 //        throw new UnsupportedOperationException("TODO");
     }

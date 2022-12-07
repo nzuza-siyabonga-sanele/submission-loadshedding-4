@@ -1,0 +1,10 @@
+Dec 07, 2022 8:09:51 PM wethinkcode.loadshed.common.logg logWEBSERVICE
+INFO: My first log
+Dec 07, 2022 8:15:10 PM wethinkcode.loadshed.common.logg logWEBSERVICE
+INFO: cant connect to placename service
+Dec 07, 2022 8:33:06 PM wethinkcode.loadshed.common.logg logWEBSERVICE
+INFO: cant connect to placename service
+Dec 07, 2022 10:19:34 PM wethinkcode.loadshed.common.logg logWEBSERVICE
+INFO: PlaceNameService is Down
+Dec 07, 2022 10:55:40 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!

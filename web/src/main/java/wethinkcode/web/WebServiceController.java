@@ -3,12 +3,15 @@ package wethinkcode.web;
 
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
+import io.javalin.http.Context;
 import io.javalin.http.Handler;
 import kong.unirest.HttpResponse;
 import kong.unirest.JsonNode;
 import kong.unirest.Unirest;
+import kong.unirest.UnirestException;
 import kong.unirest.json.JSONArray;
 import kong.unirest.json.JSONObject;
+import wethinkcode.loadshed.common.logger;
 import wethinkcode.loadshed.common.transfer.DayDO;
 import wethinkcode.loadshed.common.transfer.ScheduleDO;
 import wethinkcode.loadshed.common.transfer.SlotDO;
@@ -17,6 +20,7 @@ import wethinkcode.schedule.handlyScheduleDO;
 
 import java.time.LocalDate;
 import java.util.*;
+import java.util.logging.Level;
 
 public class WebServiceController {
 
@@ -42,12 +46,14 @@ public class WebServiceController {
 
         /// run listener for the stageservice
         stage = WebService.initTrackStage();
-        provinces = Unirest.get( serverUrl( PROVINCE_PORT ) +"/provinces").asJson();
-
-        viewModel.put("loadshedstage", stage);
-        viewModel.put("provinces", provinces.getBody().getArray());
-
-        context.render("/index.html", viewModel);
+        try{
+            provinces = Unirest.get( serverUrl( PROVINCE_PORT ) +"/provinces").asJson();
+            viewModel.put("loadshedstage", stage);
+            viewModel.put("provinces", provinces.getBody().getArray());
+            context.render("/index.html", viewModel);
+        }catch (UnirestException ex){
+            broadcastError( "PlaceNameService is Down!!!", viewModel, context );
+        }
     };
 
 
@@ -61,17 +67,21 @@ public class WebServiceController {
 
         Map<String, Object> viewModel = new HashMap<>();
 
-        HttpResponse<JsonNode> getTownsInProvince = Unirest.get(serverUrl( PROVINCE_PORT ) + "/towns/" + provinceId)
-                .asJson();
+        try{
+            HttpResponse<JsonNode> getTownsInProvince = Unirest.get(serverUrl( PROVINCE_PORT ) + "/towns/" + provinceId)
+                    .asJson();
 
-        towns = townObjects( getTownsInProvince.getBody().getArray() );
+            towns = townObjects( getTownsInProvince.getBody().getArray() );
 
-        viewModel.put("provinceId", provinceId );
-        viewModel.put("towns", towns );
-        viewModel.put("loadshedstage", WebService.initTrackStage() );
-        viewModel.put("provinces", provinces );
+            viewModel.put("provinceId", provinceId );
+            viewModel.put("towns", towns );
+            viewModel.put("loadshedstage", WebService.initTrackStage() );
+            viewModel.put("provinces", provinces );
 
-        context.render("/index.html", viewModel);
+            context.render("/index.html", viewModel);
+        }catch (UnirestException ex){
+            broadcastError( "PlaceNameService is Down!!!", viewModel, context);
+        }
 
     };
 
@@ -85,19 +95,23 @@ public class WebServiceController {
 
         String townID = context.formParamAsClass("towns", String.class).get();
 
-        HttpResponse<ScheduleDO> getSchedule = Unirest.get( serverUrl( SCHEDULE_PORT ) + "/" + provinceId +
-                        "/" + townID + "/" + stage)
-                .asObject(ScheduleDO.class);
+        try{
+            HttpResponse<ScheduleDO> getSchedule = Unirest.get( serverUrl( SCHEDULE_PORT ) + "/" + provinceId +
+                            "/" + townID + "/" + stage)
+                    .asObject(ScheduleDO.class);
 
-        Collection<handlyScheduleDO> schedule = toScheduleObject(getSchedule.getBody());
+            Collection<handlyScheduleDO> schedule = toScheduleObject(getSchedule.getBody());
 
-        viewModel.put("provinceId", provinceId);
-        viewModel.put("townId", townID);
-        viewModel.put("towns", towns);
-        viewModel.put("provinces", provinces.getBody().getArray());
-        viewModel.put("loadshedstage", WebService.initTrackStage() );
-        viewModel.put("schedule", schedule);
-        context.render("/index.html", viewModel);
+            viewModel.put("provinceId", provinceId);
+            viewModel.put("townId", townID);
+            viewModel.put("towns", towns);
+            viewModel.put("provinces", provinces.getBody().getArray());
+            viewModel.put("loadshedstage", WebService.initTrackStage() );
+            viewModel.put("schedule", schedule);
+            context.render("/index.html", viewModel);
+        }catch (UnirestException ex){
+            broadcastError( "ScheduleService is Down!!!", viewModel, context);
+        }
 
     };
 
@@ -155,5 +169,10 @@ public class WebServiceController {
         }
         return allSchedule;
 
+    }
+    public static void broadcastError( String text, Map<String, Object> viewModel, Context context ){
+        WebService.alertService.broadcastStageChangeEvent( text );
+        viewModel.put("error", WebService.alertService.getQueueReceiver().getAlert() );
+        context.render("/exception.html", viewModel );
     }
 }
