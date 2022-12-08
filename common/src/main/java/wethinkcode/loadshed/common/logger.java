@@ -18,7 +18,7 @@ public class logger {
     }
 
     public static void logPLACENAME(Level level, String msg, Throwable thrown) throws IOException {
-        final HttpResponse<JsonNode> post = Unirest.post( "https://ntfy.sh/whogottheplug" )
+        final HttpResponse<JsonNode> post = Unirest.post( "https://ntfy.sh/AlertWebServer" )
                 .header( "Content-Type", "application/json" )
                 .body( msg)
                 .asJson();
@@ -34,7 +34,7 @@ public class logger {
     }
 
     public static void logWEBSERVICE(Level level, String msg){
-        final HttpResponse<JsonNode> post = Unirest.post( "https://ntfy.sh/whogottheplug" )
+        final HttpResponse<JsonNode> post = Unirest.post( "https://ntfy.sh/AlertWebServer" )
                 .header( "Content-Type", "application/json" )
                 .body( msg)
                 .asJson();
@@ -67,17 +67,5 @@ public class logger {
         } catch (IOException e) {
             PLACENAME_LOGR.log(Level.SEVERE, "File logger not working.", e);
         }
-         /*
-         Different Levels in order.
-          OFF
-          SEVERE
-          WARNING
-          INFO
-          CONFIG
-          FINE
-          FINER
-          FINEST
-          ALL
-        */
     }
 }

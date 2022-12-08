@@ -33,8 +33,15 @@ public class WebService {
     public static int TOPIC_STAGE ;
     private static TopicReceiver app;
 
-    public static AlertQueue alertService;
+    public AlertQueue getAlertService() {
+        return alertService;
+    }
 
+    public static AlertQueue alertService;
+    public Thread task;
+    public PlaceNameService placeNameService;
+    public ScheduleService scheduleService;
+    public StageService stageService;
 
     public static void main(String[] args) {
         final WebService svc = new WebService().initialise();
@@ -58,7 +65,7 @@ public class WebService {
     }
 
     public void start() {
-        start(DEFAULT_PORT);
+        start( DEFAULT_PORT );
     }
 
     @VisibleForTesting
@@ -76,18 +83,14 @@ public class WebService {
     }
 
     private void configureHttpClient() {
-        PlaceNameService placeNameService = new PlaceNameService();
+        placeNameService = new PlaceNameService();
         placeNameService.start();
-        ScheduleService scheduleService = new ScheduleService();
+        scheduleService = new ScheduleService();
         scheduleService.start();
-        StageService stageService = new StageService();
+        stageService = new StageService();
         stageService.start();
 
-        alertService = new AlertQueue();
-        alertService.configureReceiver();
-
         TOPIC_STAGE = Unirest.get( STAGE_SVC_URL +"/stage" ).asJson().getBody().getObject().getInt("stage");
-//        throw new UnsupportedOperationException("TODO");
     }
 
     private Javalin configureHttpServer() {
@@ -98,7 +101,6 @@ public class WebService {
         });
         Routes.configure(server);
         return server;
-//        throw new UnsupportedOperationException("TODO");
     }
     private TemplateEngine templateEngine() {
         TemplateEngine templateEngine = new TemplateEngine();
@@ -108,11 +110,28 @@ public class WebService {
         templateEngine.addDialect(new LayoutDialect());
         return templateEngine;
     }
-
-    private void startMQMachinery(){
+    private WebService startMQMachinery(){
         app = new TopicReceiver();
-        Thread task = new Thread( app );
+        task = new Thread( app );
         task.start();
+        alertService = new AlertQueue();
+        alertService.configureReceiver();
+        return this;
+    }
+
+    public void stopPlaceNameService(){
+        placeNameService.stop();
+    }
+    public void stopScheduleService(){
+        scheduleService.stop();
+    }
+    public void stopStageService(){
+        stageService.stop();
+    }
+
+    public void stopMQMachinery(){
+        task.stop();
+        alertService.stopQueueReceiver();
     }
 
 }

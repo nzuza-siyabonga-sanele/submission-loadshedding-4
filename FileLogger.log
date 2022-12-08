@@ -8,3 +8,323 @@ Dec 07, 2022 10:19:34 PM wethinkcode.loadshed.common.logg logWEBSERVICE
 INFO: PlaceNameService is Down
 Dec 07, 2022 10:55:40 PM wethinkcode.loadshed.common.logger logWEBSERVICE
 INFO: PlaceNameService is Down!!!
+Dec 07, 2022 11:40:08 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 07, 2022 11:40:08 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 07, 2022 11:44:29 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 07, 2022 11:44:29 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 07, 2022 11:45:48 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 07, 2022 11:45:49 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:22:00 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:22:00 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:25:45 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:25:46 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:25:48 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 10:28:29 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:28:30 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:28:31 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 10:29:03 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:29:04 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:29:05 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 10:34:38 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:34:40 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:34:41 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 10:36:32 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:36:33 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:36:34 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 10:39:54 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:39:55 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:39:56 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 10:42:27 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:42:28 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:42:30 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 10:46:34 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:46:34 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:46:36 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 10:47:21 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:47:22 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:47:23 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 10:48:26 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:48:26 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:48:28 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 10:50:01 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:50:01 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:50:03 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 10:50:30 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:50:30 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:50:32 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 10:51:39 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:51:39 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:51:41 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 10:52:31 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:52:31 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:52:33 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 10:53:29 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:53:30 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:53:31 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 10:56:22 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:56:23 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 10:57:47 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 10:59:58 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 11:07:46 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:07:46 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:07:48 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 11:09:45 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:09:45 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:09:47 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 11:12:00 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:12:00 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:12:02 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 11:12:34 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:12:34 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:12:36 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 11:13:09 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:13:09 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:13:11 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 11:15:55 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:15:56 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:15:58 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 11:18:51 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:18:52 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:18:54 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 11:19:46 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:19:46 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:19:48 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 11:24:01 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:24:01 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:24:03 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 11:25:02 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:25:03 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:25:05 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 11:26:52 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:26:52 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:26:54 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 11:27:50 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:27:51 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:27:52 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 11:34:19 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:34:20 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:34:22 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 11:35:14 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:35:15 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:35:17 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 11:36:25 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:36:26 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:36:27 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 11:39:08 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:39:09 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:39:11 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 11:40:07 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:40:07 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 11:40:09 AM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 12:19:03 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 12:19:04 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 12:23:24 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 12:23:24 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 12:24:12 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 12:24:13 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 12:24:14 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 12:25:32 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 12:25:33 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 12:25:35 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 12:26:36 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 12:26:36 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Error reading CSV file null: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 12:26:38 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 12:27:48 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 12:27:50 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 12:42:49 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 12:42:51 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 12:45:03 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: Required CSV input file /home/wtc_laptop/submission-loadshedding-4/web/places.csv not found.
+Dec 08, 2022 12:45:05 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 12:46:23 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 12:49:05 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 12:49:58 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 12:50:44 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 12:51:45 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 12:54:40 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 12:57:27 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:04:37 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:05:35 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:07:05 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:10:05 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:10:38 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:13:34 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:14:30 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:16:06 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:16:44 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:17:28 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:26:42 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:29:58 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:31:00 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:31:38 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:33:08 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:36:25 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:41:28 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:43:07 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:44:17 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:45:12 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:45:44 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:46:57 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:48:46 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 1:52:12 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 3:26:12 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!
+Dec 08, 2022 3:38:07 PM wethinkcode.loadshed.common.logger logWEBSERVICE
+INFO: PlaceNameService is Down!!!

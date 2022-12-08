@@ -34,7 +34,6 @@ public class QueueReceiver implements Runnable {
         setUpMessageListener();
         while (running) {
             // do other stuff...
-            System.out.println("Still doing other things...");
             snooze();
         }
 

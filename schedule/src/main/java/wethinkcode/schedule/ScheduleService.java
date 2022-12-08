@@ -22,6 +22,7 @@ public class ScheduleService {
 
     public static final String MQ_TOPIC = "stage";
 
+    private Thread task;
     private Javalin server;
     private int servicePort;
     private TopicReceiver app;
@@ -128,7 +129,11 @@ public class ScheduleService {
 
     private void startMQMachinery(){
         app = new TopicReceiver();
-        Thread task = new Thread( app );
+        task = new Thread( app );
         task.start();
+    }
+
+    public void stopMQMachinery(){
+        task.stop();
     }
 }

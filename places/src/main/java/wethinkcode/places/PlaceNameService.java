@@ -164,7 +164,6 @@ public class PlaceNameService implements Runnable {
         }catch( IOException ex ){
             AlertQueue alert = new AlertQueue();
             alert.broadcastStageChangeEvent("Error reading CSV file " + dataFile + ": " + ex.getMessage() );
-
             dataFile = new File(
                     "/home/wtc_laptop/submission-loadshedding-3/places/resources/PlaceNamesZA2008.csv"
             );

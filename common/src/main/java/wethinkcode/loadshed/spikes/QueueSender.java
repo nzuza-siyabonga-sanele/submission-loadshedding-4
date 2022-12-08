@@ -57,7 +57,7 @@ public class QueueSender implements Runnable {
         for (String message : messages) {
             TextMessage msg = session.createTextMessage(message);
             producer.send(msg);
-            System.out.println("Sent message : "+ message);
+            System.out.println("Sent message Alert: "+ message);
         }
 //        throw new UnsupportedOperationException("TODO");
     }

@@ -10,6 +10,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 import com.google.common.annotations.VisibleForTesting;
+import wethinkcode.AlertQueue;
 import wethinkcode.places.db.memory.PlacesDb;
 import wethinkcode.places.model.Places;
 import wethinkcode.places.model.Town;
@@ -32,7 +33,8 @@ public class PlacesCsvParser {
         //{snip/1}
         requireNonNull(csvFile);
         if (!(csvFile.exists() && csvFile.canRead())) {
-            PlaceNameService cvs = new PlaceNameService();
+            AlertQueue alert = new AlertQueue();
+            alert.broadcastStageChangeEvent("Required CSV input file " + csvFile.getPath() + " not found." );
             throw new FileNotFoundException("Required CSV input file " + csvFile.getPath() + " not found.");
         }
 
